@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.side-menu {
+    height: 100%;
+    background-color: $side-menu-color;
+
+    .side-menu-user {
+        height: 70px;
+        background: $purple-color;
+        font-size: 3em;
+        color: $white-color;
+    }
+}
+

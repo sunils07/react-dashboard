@@ -1,0 +1,39 @@
+@import "../../styles/variables";
+
+.header {    
+    position: fixed;
+    right: 0;
+    width: 91.70%;
+    z-index: 999;
+    .bg-light {
+        background-color: $body-bg-color !important;
+    }
+}
+
+.header-height {
+    width: 100%;
+    height: 74px;       
+}
+
+.user-dropdown {
+   display: inline-flex; 
+
+   .user-info {
+        display: flex;
+        flex-direction: column;
+        padding-right: 1em;
+        text-align: right;
+
+        .user-name {
+            font-size: 14px;
+            font-weight: 500;
+            color: $black-color;
+        }
+
+        .user-role {
+            font-size: 12px;
+            font-weight: 300;
+        }
+   }
+}
+

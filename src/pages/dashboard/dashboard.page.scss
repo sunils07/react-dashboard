@@ -1,0 +1,13 @@
+.dashboard-page {
+    .stat-cards {
+        margin-top: 2em;
+        .card-body {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .stat-card-info {
+                padding-left: 1.8em;
+            }
+        }
+    }
+}
