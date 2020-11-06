@@ -1,4 +1,5 @@
 import React from 'react';
+import { oneOfType, array, object } from "prop-types";
 import {
     Card,
     CardBody
@@ -17,4 +18,6 @@ export default function AppCard({ children }) {
     );
 }
 
-AppCard.propTypes = {};
+AppCard.propTypes = {
+    children: oneOfType([array, object]).isRequired
+};

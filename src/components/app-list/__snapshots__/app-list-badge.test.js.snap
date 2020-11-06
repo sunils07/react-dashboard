@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app list badge correctly  1`] = `
+<div
+  className="list-badge"
+>
+  567567
+</div>
+`;

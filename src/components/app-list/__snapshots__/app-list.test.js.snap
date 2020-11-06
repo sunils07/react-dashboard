@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app list with icon and badge correctly  1`] = `
+<div
+  className="app-list-item"
+>
+  <div
+    className="list-item-left"
+  >
+    <img
+      alt="test"
+      className="avtar"
+      src="avtar.png"
+    />
+    <label />
+  </div>
+  <div
+    className="list-badge"
+  >
+    6788
+  </div>
+</div>
+`;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { object } from 'prop-types';
+import { oneOfType, object, array } from 'prop-types';
 
 import "./app-list.scss";
 
@@ -17,6 +17,6 @@ export default function AppList({ label, ListIcon, Badge }) {
 }
 
 AppList.propTypes = {
-    ListIcon: object,
-    Badge: object
+    ListIcon: oneOfType([object, array]).isRequired,
+    Badge: oneOfType([object, array]).isRequired
 };

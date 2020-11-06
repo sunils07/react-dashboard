@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders header correctly  1`] = `
+Array [
+  <div
+    className="header gutter-2x"
+  >
+    <nav
+      className="navbar navbar-expand-md navbar-light bg-light"
+    >
+      <ul
+        className="ml-auto navbar-nav"
+      >
+        <li
+          className="dropdown nav-item"
+          onKeyDown={[Function]}
+        >
+          <a
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="dropdown-toggle nav-link"
+            href="#"
+            onClick={[Function]}
+          >
+            <div
+              className="user-dropdown"
+            >
+              <div
+                className="user-info"
+              >
+                <div
+                  className="user-name"
+                >
+                  Sunil Dandwate
+                </div>
+                <div
+                  className="user-role"
+                >
+                  Soft. Dev.
+                </div>
+              </div>
+              <img
+                alt="User"
+                className="avtar"
+                src="avtar.png"
+              />
+            </div>
+          </a>
+          <div
+            aria-hidden={true}
+            className="dropdown-menu dropdown-menu-right"
+            role="menu"
+            tabIndex="-1"
+          >
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+              role="menuitem"
+              tabIndex="0"
+              type="button"
+            >
+              Menu #1
+            </button>
+            <div
+              className="dropdown-divider"
+              onClick={[Function]}
+              tabIndex="-1"
+            />
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+              role="menuitem"
+              tabIndex="0"
+              type="button"
+            >
+              Menu #2
+            </button>
+            <div
+              className="dropdown-divider"
+              onClick={[Function]}
+              tabIndex="-1"
+            />
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+              role="menuitem"
+              tabIndex="0"
+              type="button"
+            >
+              Menu #3
+            </button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>,
+  <div
+    className="header-height"
+  />,
+]
+`;
+
+exports[`renders header without avtar correctly  1`] = `
+Array [
+  <div
+    className="header gutter-2x"
+  >
+    <nav
+      className="navbar navbar-expand-md navbar-light bg-light"
+    >
+      <ul
+        className="ml-auto navbar-nav"
+      >
+        <li
+          className="dropdown nav-item"
+          onKeyDown={[Function]}
+        >
+          <a
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="dropdown-toggle nav-link"
+            href="#"
+            onClick={[Function]}
+          >
+            <div
+              className="user-dropdown"
+            >
+              <div
+                className="user-info"
+              >
+                <div
+                  className="user-name"
+                >
+                  Sunil Dandwate
+                </div>
+                <div
+                  className="user-role"
+                >
+                  Soft. Dev.
+                </div>
+              </div>
+            </div>
+          </a>
+          <div
+            aria-hidden={true}
+            className="dropdown-menu dropdown-menu-right"
+            role="menu"
+            tabIndex="-1"
+          >
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+              role="menuitem"
+              tabIndex="0"
+              type="button"
+            >
+              Menu #1
+            </button>
+            <div
+              className="dropdown-divider"
+              onClick={[Function]}
+              tabIndex="-1"
+            />
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+              role="menuitem"
+              tabIndex="0"
+              type="button"
+            >
+              Menu #2
+            </button>
+            <div
+              className="dropdown-divider"
+              onClick={[Function]}
+              tabIndex="-1"
+            />
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+              role="menuitem"
+              tabIndex="0"
+              type="button"
+            >
+              Menu #3
+            </button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>,
+  <div
+    className="header-height"
+  />,
+]
+`;
+
+exports[`renders header without avtar correctly  2`] = `
+Array [
+  <div
+    className="header gutter-2x"
+  >
+    <nav
+      className="navbar navbar-expand-md navbar-light bg-light"
+    >
+      <ul
+        className="ml-auto navbar-nav"
+      >
+        <li
+          className="dropdown nav-item"
+          onKeyDown={[Function]}
+        >
+          <a
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="dropdown-toggle nav-link"
+            href="#"
+            onClick={[Function]}
+          >
+            <div
+              className="user-dropdown"
+            >
+              <div
+                className="user-info"
+              >
+                <div
+                  className="user-name"
+                >
+                  Sunil Dandwate
+                </div>
+                <div
+                  className="user-role"
+                >
+                  Soft. Dev.
+                </div>
+              </div>
+            </div>
+          </a>
+          <div
+            aria-hidden={true}
+            className="dropdown-menu dropdown-menu-right"
+            role="menu"
+            tabIndex="-1"
+          >
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+              role="menuitem"
+              tabIndex="0"
+              type="button"
+            >
+              Menu #1
+            </button>
+            <div
+              className="dropdown-divider"
+              onClick={[Function]}
+              tabIndex="-1"
+            />
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+              role="menuitem"
+              tabIndex="0"
+              type="button"
+            >
+              Menu #2
+            </button>
+            <div
+              className="dropdown-divider"
+              onClick={[Function]}
+              tabIndex="-1"
+            />
+            <button
+              className="dropdown-item"
+              onClick={[Function]}
+              role="menuitem"
+              tabIndex="0"
+              type="button"
+            >
+              Menu #3
+            </button>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>,
+  <div
+    className="header-height"
+  />,
+]
+`;

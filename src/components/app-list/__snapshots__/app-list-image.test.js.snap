@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app list image correctly  1`] = `
+<img
+  alt="test"
+  className="avtar"
+  src="avtar.png"
+/>
+`;

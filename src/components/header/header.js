@@ -1,4 +1,5 @@
 import React from 'react';
+import { oneOfType, any, string } from 'prop-types';
 import {
     Navbar,
     Nav,
@@ -8,11 +9,9 @@ import {
     DropdownItem,
 
 } from 'reactstrap';
-import Avtar from '../../images/avtar.png';
 import "./header.scss";
 
-export default function Header(props) {
-
+export default function Header({ userName, userRole, avtarUrl }) {
     return (
         <>
             <div className="header gutter-2x">
@@ -22,10 +21,10 @@ export default function Header(props) {
                             <DropdownToggle nav caret>
                                 <div className="user-dropdown">
                                     <div className="user-info">
-                                        <div className="user-name">Sunil Dandwate</div>
-                                        <div className="user-role">Soft. Dev</div>
+                                        <div className="user-name">{userName}</div>
+                                        <div className="user-role">{userRole}</div>
                                     </div>
-                                    <img src={Avtar} className="avtar" alt="User" />
+                                    {avtarUrl && <img src={avtarUrl} className="avtar" alt="User" />}
                                 </div>
                             </DropdownToggle>
                             <DropdownMenu right>
@@ -50,4 +49,8 @@ export default function Header(props) {
     );
 }
 
-Header.propTypes = {};
+Header.propTypes = {
+    userName: string.isRequired,
+    userRole: string.isRequired,
+    avtarUrl: oneOfType([any, string])
+};

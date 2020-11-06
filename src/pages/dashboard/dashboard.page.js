@@ -12,6 +12,8 @@ import {
     Input
 } from 'reactstrap';
 
+import Avtar from '../../images/avtar.png';
+
 import SideMenu from "../../components/sidemenu/sidemenu";
 import Header from "../../components/header/header";
 
@@ -38,7 +40,11 @@ function DashboardPage(props) {
                 <SideMenu />
                 <Col className="offset-md-1 gutter-2x">
                     <div className="dashboard-page">
-                        <Header />
+                        <Header
+                            userName="Sunil Dandwate"
+                            userRole="Soft. Dev."
+                            avtarUrl={Avtar}
+                        />
                         <div className="page-header">
                             <h2 className="page-title">Dashboard</h2>
                             <div className="page-subtitle">Mobile ux/ui design</div>

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app collapsible correctly  1`] = `
+<div
+  className="app-card collapsible card"
+>
+  <h1>
+    App Collapsible
+  </h1>
+</div>
+`;
