@@ -34,6 +34,8 @@ function DashboardPage(props) {
         props.getStudents();
     }, []);
 
+    function onStudentClick(student, event) { }
+
     return (
         <Container fluid>
             <Row>
@@ -65,7 +67,10 @@ function DashboardPage(props) {
                                         </CardHeader>
                                         <UncontrolledCollapse toggler="#toggler" defaultOpen={true}>
                                             <CardBody className="gutter-0 scrollable">
-                                                <StudentList items={props.studentsList} />
+                                                <StudentList
+                                                    items={props.studentsList}
+                                                    onStudentClick={onStudentClick}
+                                                />
                                             </CardBody>
                                         </UncontrolledCollapse>
                                     </AppCollapsible>

@@ -3,6 +3,7 @@
 exports[`renders app list with icon and badge correctly  1`] = `
 <div
   className="app-list-item"
+  onClick={[Function]}
 >
   <div
     className="list-item-left"
